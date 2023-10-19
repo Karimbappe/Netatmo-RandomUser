@@ -1,0 +1,114 @@
+.user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    height: 430px;
+    margin-top: 5rem;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+.user-card-header{
+    position: absolute;
+    width: 750px;
+    height: 130px;
+    border: 1px solid rgba(0,0,0,.25);
+    border-top : none;
+    border-left: none;
+    border-right: none;   
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
+    background-color: #f9f9f9; 
+}
+
+.user-picture{
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+    z-index: 2;
+}
+
+.user-picture-frame{
+    height: 157px;
+    width: 157px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.25);
+    border-radius: 100%;
+    z-index: 5;
+    position: absolute;
+    margin-top: 41px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    height: 430px;
+    margin-top: 5rem;
+    border: 1px solid gray;
+    border-radius: 2%;
+    position: relative;
+  }
+  
+  .icon-container {
+    display: flex;
+    position: absolute;
+    margin-top: 23rem;
+    gap: 5rem;
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-right: 10px; /* Add spacing between icon and text */
+    color: black; /* Default color */
+  }
+  
+  .icon:hover {
+    color: green; /* Change icon color when icon is hovered */
+  }
+  
+  .icon-text p {
+    margin: 0;
+  }
+  
+  .icon-text p.hide {
+    display: none; /* Hide text by default */
+  }
+  
+  .icon-text:hover p.hide {
+    display: flex;
+    flex-direction: column; /* Show text when icon is hovered */
+  }
+
+  .sub-text{
+    color: #999;
+    font-size: 18px;
+  }
+
+  .text{
+    font-size: 38px;
+    margin-top: 0;
+  }
+
+  .delete-button{
+    z-index: 4;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+  }
